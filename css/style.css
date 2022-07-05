@@ -1,0 +1,93 @@
+nav{
+    background-color: #1197a7;
+}
+body{
+    background-color: #F6F6F6;
+    font-family: "Helvetica Neue", "Source sans", sans-serif !important;
+}
+.nav a{
+    font-size: 16px !important;
+    color:#ffffff;
+    padding:8px !important;
+    margin:0px !important;
+}
+h1,h2,h3{
+    color:#1197a7;
+}
+.nav a:hover {
+    color:black;
+}
+span.tagline{
+    color:#696969;
+    font-style:italic;
+    font-size: 15px;
+    margin-left:20px;
+    font-weight: bold;
+}
+.navbar-nav a{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding:8px;
+    font-size: 18px;
+    margin: 18px;
+}
+
+.navbar-brand{
+    margin-left: 2%;
+}
+.info-list li{
+    color:#1197a7;
+    font-weight:600;
+    font-size: 18px;
+}
+i.tagline{
+    color:#696969;
+    position: relative;
+    font-family: "Helvetica", sans-serif;
+    font-size: medium;
+}
+.img{
+    padding-left: 20%;
+}
+p.text-block{
+    font-size: 18px;
+    font-weight: bold;
+    color:  #00ADB5;
+    text-align: justify;
+}
+.aboutus{
+    font-size: 18px;
+}
+.text-block{
+    background-color: #00ADB5;
+    color: #ffffff;
+}
+a.dropdown-item{
+    color:#00ADB5;
+    padding-right:12px ;
+    padding-left:12px ;
+    margin:0px;
+    font-weight:400;
+    margin: 12px 0px 12px 0px;
+}
+input.form-control[type=text]{
+    font-size:14px;
+}
+  .active-cyan-2 .fa {
+    color: #00ADB5;
+}
+.contactus-img{
+    position: relative;
+    margin-left: 25%;
+}
+.callus{
+    padding-bottom: 4em;
+}
+.callus-icon{
+   position: relative;
+   left: 15%;
+}
+.callus-text{
+    position: relative;
+    left: 4%;
+}
