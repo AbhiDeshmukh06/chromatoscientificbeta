@@ -21,7 +21,7 @@
           crossorigin="anonymous"></script>
       </head>
     <body>
-        <nav class="py-1 border-bottom">
+        <nav class="rounded border-bottom">
             <div class="container d-flex d-wrap">
               <ul class="nav me-auto">
                 <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><i class="fa fa-envelope fa-lg"></i>
@@ -60,7 +60,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="">Products</a>
-                  <ul class="dropdown-menu border-0 rounded shadow p-2">
+                  <ul class="dropdown-menu bord rounded shadow p-2">
                     <li><a class="dropdown-item" href="reference-standards.html">Reference Standards</a></li>
                     <li><a class="dropdown-item" href="deuterium-compounds.html">Deuterium Compounds </a></li>
                     <li><a class="dropdown-item" href="rld-compounds.html">RLD(Reference Listed Drug)</a></li>
@@ -83,25 +83,26 @@
                 </li>
               </ul>
           </nav>
-          <div class="py-0 mx-2 row row-cols-1 row-cols-md-2 align-items-center">
-            <div class="col">
-                <div class="ps-5 mb-2">
-                <h1 class="display- fw-bold">Fulfill Your Analytical Needs</h1>
-                <p class="lead fs-4">Extensive catalog of Research and Analytical Compounds</p>
-                <p class="lead">
-                <a class="btn btn-primary btn-lg" href="files/CHR-Inventory07:22.pdf" role="button" style="background-color:#1197a7;">Product Catalog</a>
-                </p>
-                </div>
+          <div class="conatiner-fluid col-xxl-8 px-4 pb-2 pt-3">
+            <div class="row flex-lg-row-reverse align-items-center g-5 p-0">
+              <div class="col p-0 m-0">
+                <img class="img-fluid w-100 p-0 m-0" loading="lazy" src="images/chemicon.webp" class="img-fluid w-100">
             </div>
-            <div class="col p-0">
-                <img class="img-fluid" loading="lazy" src="images/chemicon.webp" class="img-fluid w-100">
+              <div class="col-lg-6 ms-3">
+                <h1 class="display-5 fw-bold lh-1 mb-3 ps-3">Buy High Quality Reference Standards</h1>
+                <p class="lead ps-3">We manufacture and supply high purity reference standards at milligram to gram scale with complete documentation traceibility, at competitve prices.</p>
+                <div class="d-grid gap-3 d-md-flex justify-content-md-start ps-3">
+                  <button type="button" class="btn btn-lg" style="background-color: #1197a7; color:#ffffff" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Request Quote Today!</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg" href="files/CHR-Inventory07:22.pdf">Check Product Catalog</button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="container-sm input-group mb-3 px-5">
-            <input type="text" class="form-control shadow" placeholder="Search by CAS number or Compound Name">
+          <div class="container-sm input-group px-5 py-3 gx-4 justify-content-center">
+            <input type="text" class="form-control-lg col-lg-10 shadow border-1 border" placeholder="Search by CAS number or Compound Name">
             <div class="input-group-append">
-              <span class="btn btn-primary" id="basic-addon2">
-                <i class="fa fa-search"></i>
+              <span class="btn btn-lg btn-primary" id="basic-addon2">
+                <i class="fa fa-search" ></i>
               </span>
             </div>
           </div>
@@ -115,7 +116,7 @@
                     <img src="images/icon4.png" class="card-img-top w-25" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">API Impurities</h5>
-                      <p class="card-text">Impurities found in drugs identified and isolated. Wide range of impurity standards to fulfill your analytical needs.</p>
+                      <p class="card-text">We deliver extensive range of high purity impurity standards at competitive prices.Rare and hard to find drug impurities synthesized in-house to fulfill your testing needs.</p>
                     </div>
                   </div>
                 </div>
@@ -124,7 +125,7 @@
                     <img src="images/icon3.png" class="card-img-top w-25" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Custom Synthesis</h5>
-                      <p class="card-text">We provide custom synthesis services and projectsas per client needs and requirements. Reference compound synthesis and library synthesis services offered.</p>
+                      <p class="card-text">We also under undertake custom synthesis projects. We carry out Reference compound synthesis and library synthesis projects with client requirements as focal point.</p>
                     </div>
                   </div>
                 </div>
@@ -133,16 +134,16 @@
                     <img src="images/icon2.png" class=" card-img-top w-25 " alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Intermediates</h5>
-                      <p class="card-text">Pharmaceutical intermediates are the drugs used as raw materials for the production of bulk drugs.</p>
+                      <p class="card-text">Pharmaceutical intermediates are the drugs used as raw materials for the production of bulk drugs.We supply quality intermediates in bulk quantities. Enquire today and get the best price!</p>
                     </div>
                   </div>
                 </div>
                 <div class="col mt-1">
-                  <div class="card h-100 shadow p-2 mb-0 bg-white rounded">
+                  <div class="card h-100 shadow p-2 mb-5 bg-white rounded">
                     <img src="images/icon1.png" class="card-img-top w-25 " alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Nitrosamine Impurities</h5>
-                      <p class="card-text">Organic Nitrosamine Impurities are organic functionalized molecules, the basic components for organic synthesis.</p>
+                      <p class="card-text">Ready stock of Nitrosamine Impurities ready to deliver, Check out our catalogue of high purity Nitrosamine Impurities and request quote today !</p>
                     </div>
                   </div>
                 </div>
@@ -162,7 +163,47 @@
               <img class="img w-75" src="images/msme.webp" alt="">
               </div>
             </div>
-          </div>  
+          </div>
+          <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Enquiry Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3 px-5 pt-1 pb-3" netlify>
+          <div class="col-md-8">
+            <label for="inputEmail4" class="form-label">Your name:</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Your name">
+          </div>
+          <div class="col-md-8">
+            <label for="inputEmail" class="form-label">Your email:</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="ex:purchase@company.com">
+          </div>
+          <div class="col-6">
+            <label for="input" class="form-label">Contact no:</label>
+            <input type="text" class="form-control" id="inputPhone" placeholder="Phone number">
+          </div>
+          <div class="col-6">
+            <label for="inputCompany" class="form-label">Company:</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Your organization">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Product Name/Enquiry:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Product CAS number or Name"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
           <div class = "conatiner-fluid">
             <footer class="text-center text-muted bg-light">
               <!-- Section: Social media -->
@@ -193,7 +234,7 @@
                     </div>
                     <!-- Grid column -->
                     <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 defautlt-gatsby">
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
                       <!-- Links -->
                       <h6 class="text-uppercase fw-bold mb-4">
                         Products

@@ -91,3 +91,7 @@ input.form-control[type=text]{
     position: relative;
     left: 4%;
 }
+.huge{
+    font-size: 10rem;
+    font-family: "Roboto";
+}
