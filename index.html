@@ -64,9 +64,9 @@
                   <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="">Products</a>
                   <ul class="dropdown-menu bord rounded shadow p-2">
                     <li><a class="dropdown-item" href="reference-standards.html">Reference Standards</a></li>
-                    <li><a class="dropdown-item" href="deuterium-compounds.html">Deuterium Compounds </a></li>
-                    <li><a class="dropdown-item" href="rld-compounds.html">RLD(Reference Listed Drug)</a></li>
-                    <li><a class="dropdown-item" href="peptide-compounds.html">Peptide Compounds</a></li>
+                    <li style = "display:none;"><a class="dropdown-item" href="deuterium-compounds.html">Deuterium Compounds </a></li>
+                    <li style = "display:none;"><a class="dropdown-item" href="rld-compounds.html">RLD(Reference Listed Drug)</a></li>
+                    <li style = "display:none;"><a class="dropdown-item" href="peptide-compounds.html">Peptide Compounds</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="custom-synthesis.html">Custom Synthesis</a></li>
                   </ul>
@@ -179,26 +179,28 @@
       <div class="modal-body">
         <form class="row g-3 px-5 pt-1 pb-3" name="enquiry" method="POST" data-netlify="true">
           <div class="col-md-8">
-            <label for="inputEmail4" class="form-label">Your name:</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Your name">
+            <label for="inputEmail4" class="form-label">Full Name:</label>
+            <input type="text" class="form-control" id="inputName" placeholder="">
           </div>
           <div class="col-md-8">
-            <label for="inputEmail" class="form-label">Your email:</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="ex:purchase@company.com">
+            <label for="inputEmail" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="example@company.com">
           </div>
           <div class="col-6">
-            <label for="input" class="form-label">Contact no:</label>
-            <input type="text" class="form-control" id="inputPhone" placeholder="Phone number">
+            <label for="input" class="form-label">Contact no.</label>
+            <input type="text" class="form-control" id="inputPhone" placeholder="enter 10 digit number">
           </div>
           <div class="col-6">
             <label for="inputCompany" class="form-label">Company:</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Your organization">
+            <input type="text" class="form-control fs-6" id="inputAddress" placeholder="your company's name">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Product Name/Enquiry:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Product CAS number or Name"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter required product's CAS number or IUPAC name"></textarea>
           </div>
-          <button type="submit" class="btn btn-sm btn-success">submit</button>
+          <button type="submit" class="btn btn-sm btn-success col-4">submit</button>
+          <div id="enquiryinfo" class="form-text">Our Customer represtentative will get in touch with you within 24 hours.
+          </div>
         </form>
       </div>
       <div class="modal-footer">
