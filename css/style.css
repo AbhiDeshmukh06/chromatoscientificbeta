@@ -95,3 +95,36 @@ input.form-control[type=text]{
     font-size: 10rem;
     font-family: "Roboto";
 }
+.product-btn{
+        cursor: pointer;
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        color: #393b3c;
+        text-align: left;
+        position: relative;
+        padding: 8px 15px;
+        background-color: #fff;
+        box-shadow: 0 1px 10px rgb(0 0 0 / 10%);
+        margin: 10px 0;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        border-radius: 5px;
+}
+.letter{
+    font-size: 28px !important;
+    margin: 5px 7px;
+    font-weight: 750;
+    font-size: 28px !important;
+    color: #348bc1;
+    display: inline-block;
+    padding: 0;
+    margin: 0 6px;
+    opacity: 1;
+}
+.letter:hover{
+    color:#393b3c;
+}
