@@ -89,11 +89,12 @@
     <p class="p-4 bg-light rounded">Abiraterone acetate, sold under the brand name Zytiga among others, is a medication used to treat prostate cancer. Specifically it is used together with a corticosteroid for metastatic castration-resistant prostate cancer and metastatic high-risk castration-sensitive prostate cancer. </p>
 </div>    
     <div class="container-sm mt-4 pb-4">
-        <div class="row row-cols-1 row-cols-md-2 gx-4 align-items-center">
+        <h2 class="py-2">Abiraterone Impurities</h2>
+        <div class="row row-cols-1 row-cols-md-2 gx-4 align-items-center border-bottom border-top border-5 p-4">
             <div class="col">
                 <div class="card shadow p-0 fs-6">
                     <h5 class="card-header bg-success text-white">Abiraterone Impurity 18</h5>
-                    <img class="img-fluid h-25" src="structures/abirateroneimpurity18.png" alt="Card image cap">
+                    <img class="img-fluid mx-auto d-block" src="structures/abirateroneimpurity18.png" alt="Abiraterone Impurity 18 chemical structure" height="300px" width="300px">
                 <div class="card-body border-top">
                     <table class="table border">
                         <tbody>
@@ -125,14 +126,14 @@
                 <button class="btn btn-secondary shadow">MSDS
                     <i class="fa fa-file"></i>
                 </button>
-                <button class="btn btn-primary btn-block px-5">ENQUIRE</button>
+                <button class="btn btn-primary btn-block px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ENQUIRE</button>
                 </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card shadow p-0 fs-6">
                     <h5 class="card-header bg-success text-white">Abiraterone Impurity 7</h5>
-                    <img class="img-thumbnail" src="structures/abirateroneimpurity7.jpeg" alt="Card image cap">
+                    <img class="img-fluid mx-auto d-block" src="structures/abirateroneimpurity7.jpeg" alt="Abiraterone Impurity 7 chemical structure" height="300px" width="300px">
                 <div class="card-body border-top">
                     <table class="table border">
                         <tbody>
@@ -164,12 +165,54 @@
                 <button class="btn btn-secondary shadow">MSDS
                     <i class="fa fa-file"></i>
                 </button>
-                <button class="btn btn-primary btn-block px-5">ENQUIRE</button>
+                <button class="btn btn-primary btn-block px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ENQUIRE</button>
                 </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Enquiry Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3 px-5 pt-1 pb-3" name="enquiry" method="POST" data-netlify="true">
+            <div class="col-md-8">
+              <label for="inputEmail4" class="form-label">Full Name:</label>
+              <input type="text" class="form-control" id="inputName" placeholder="your name">
+            </div>
+            <div class="col-md-8">
+              <label for="inputEmail" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="example@company.com">
+            </div>
+            <div class="col-6">
+              <label for="input" class="form-label">Contact no.</label>
+              <input type="text" class="form-control" id="inputPhone" placeholder="enter 10 digit number">
+            </div>
+            <div class="col-6">
+              <label for="inputCompany" class="form-label">Company:</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="your company's name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Product Name/Enquiry:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter required product's cas number or IUPAC name"></textarea>
+            </div>
+            <button type="submit" class="btn btn-sm btn-success col-4">submit</button>
+            <div id="enquiryinfo" class="form-text">Our Customer represtentative will get in touch with you within 24 hours.
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- Footer -->
 <div class="conatiner-fluid">
     <footer class="text-center text-muted bg-light">
