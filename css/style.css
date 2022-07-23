@@ -128,3 +128,7 @@ input.form-control[type=text]{
 .letter:hover{
     color:#393b3c;
 }
+a .card-header{
+    background-color: #348bc1;
+    color:#348bc1;
+}
