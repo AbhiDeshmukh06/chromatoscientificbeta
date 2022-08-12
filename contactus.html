@@ -89,35 +89,35 @@
     <img class="contactus-img img-fluid w-50" src="images/contactus.png" alt="">
 </div>
 <div class="d-flex justify-content-center">
-        <h1 class="border-bottom p-3 fw-bold" style="color:#1197a7;">Request Quote</h1>
+        <h1 class="border-bottom p-3 fw-bold" style="color:#1197a7;">Enquiry Form</h1>
     </div>
 <div class="container-sm border-bottom">
-  <form class="row g-3 px-5 pt-1 pb-3" name="contactus" method="POST" data-netlify="true">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Your Name</label>
-    <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
-  </div>
-  <div class="col-md-6">
-    <label for="inputEmail" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail" placeholder="Enter your mail address">
-  </div>
-  <div class="col-6">
-    <label for="input" class="form-label">Contact no.</label>
-    <input type="number" class="form-control" id="inputAddress" placeholder="your phone number">
-  </div>
-  <div class="col-6">
-    <label for="inputCompany" class="form-label">Company</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Your organization's name">
-  </div>
-  <div class="col-md-10">
-    <label for="inputEnquiry" class="form-label">C</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Your enquiry or query regarding our products and services."></textarea>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Send Enquiry</button>
-    <div id="enquiryinfo" class="form-text">Our Customer represtentative will get in touch with you within 24 hours.</div>
-  </div>
-</form>
+  <form name="contact" class="row row-cols-md-1 just" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+    <div class="form-group col-md-5 py-1">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group col-md-5 py-1">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group col-md-5 py-1">
+      <label for="subject">Organization/Company:</label>
+      <input type="text" class="form-control" id="subject" name="subject" required>
+    </div>
+    <div class="form-group col-md-5 py-1">
+      <label for="subject">Contact number:</label>
+      <input type="text" class="form-control" id="subject" name="subject" required>
+    </div>
+    <div class="form-group col-md-5 py-1">
+      <label for="message">Your Enquiry:</label>
+      <textarea class="form-control" rows="3" id="message" name="message" placeholder="Kindly provide cas number/compound name/chemical formula for the required product." required></textarea>
+    </div>
+    <div class="form-group">
+      <div data-netlify-recaptcha="true"></div>
+    </div>
+    <button type="submit" class="btn btn-primary col-md-2 ms-3 my-2 ">Submit</button>
+  </form>
 </div>
 </div>
 </div>
@@ -146,7 +146,7 @@
 </div>
 </div>
 <div class="container-sm px-5 py-2">
-  <iframe class="shadow col-lg-12 border border-1 rounded"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d941.9828452319222!2d72.95561347731548!3d19.198199209287232!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9c765f90c23%3A0xda9a93adcf941a56!2sChromato%20Scientific!5e0!3m2!1sen!2sin!4v1656499881292!5m2!1sen!2sin" width="940" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe class="shadow col-sm-12 border border-1 rounded"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d941.9828452319222!2d72.95561347731548!3d19.198199209287232!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9c765f90c23%3A0xda9a93adcf941a56!2sChromato%20Scientific!5e0!3m2!1sen!2sin!4v1656499881292!5m2!1sen!2sin" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!-- Footer -->
 <div class="conatiner-fluid">
@@ -217,7 +217,7 @@
               <a href="#!" class="text-reset btn">Careers</a>
             </p>
             <p>
-              <a href="#!" class="text-reset btn btn">Contact us</a>
+              <a href="#!" class="text-reset btn">Contact us</a>
             </p>
           </div>
           <!-- Grid column -->
