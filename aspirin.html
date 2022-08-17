@@ -222,24 +222,24 @@
         <div class="modal-body">
           <form class="row g-3 px-5 pt-1 pb-3" name="enquiry" method="POST" data-netlify="true">
             <div class="col-md-8">
-              <label for="inputEmail4" class="form-label">Full Name:</label>
-              <input type="text" class="form-control" id="inputName" placeholder="your name">
+              <label for="full-name" class="form-label">Full Name:</label>
+              <input type="text" class="form-control" name="full-name" id="full-name">
             </div>
-            <div class="col-md-8 fs-6">
-              <label for="inputEmail" class="form-label">Email address:</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="example@company.com">
+            <div class="col-md-8 fs-6 form-group">
+              <label for="email" class="form-label">Email address:</label>
+              <input type="email" name="email" class="form-control" id="email">
             </div>
-            <div class="col-6">
-              <label for="input" class="form-label">Contact no.</label>
-              <input type="text" class="form-control" id="inputPhone" placeholder="your contact number">
+            <div class="col-md-8 fs-6 form-group">
+              <label for="email" class="form-label">Email address:</label>
+              <input type="email" name="email" class="form-control" id="email">
             </div>
-            <div class="col-6">
-              <label for="inputCompany" class="form-label">Organization:</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="your organisation">
+            <div class="col-6 form-group">
+              <label for="company" class="form-label">Organization:</label>
+              <input type="text" class="form-control" id="company" name="company">
             </div>
-            <div class="col-12">
-              <label for="exampleFormControlTextarea1" class="form-label">Product name / Enquiry:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="product name/cas/synonym, qty"></textarea>
+            <div class="col-6 form-group">
+              <label for="company" class="form-label">Organization:</label>
+              <input type="text" class="form-control" id="company" name="company">
             </div>
             <br><br>
             <button type="submit" class="btn btn-sm btn-success">submit</button>
