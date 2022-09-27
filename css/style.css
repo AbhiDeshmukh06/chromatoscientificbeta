@@ -129,7 +129,7 @@ input.form-control[type=text]{
 .letter:hover{
     color:#393b3c;
 }
-hr.nitros{
-    border-color: #1197a7;
-    margin:0%;
+h2.nitrosamine{
+    text-decoration: underline;
+    text-decoration-color: #1197a7;
 }

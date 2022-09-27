@@ -138,7 +138,7 @@
     </div>
   </div>
 <hr>
-<h2 class="ps-5 text-black fw-bold">Catalogue of Nitrosamine Impurities</h2>
+<h2 class="nitrosamine pt-2 ps-5 text-black fw-bold">Catalogue of Nitrosamine Impurities</h2>
 
     <div class="row row-cols-1 row-cols-md-3 g-3 align-items-center p-5">
       <div class="col">
@@ -244,7 +244,6 @@
 </div>
 </div>
 </div>
-
 <div class="row row-cols-1 row-cols-md-3 g-3 align-items-center px-5 py-2">
   <div class="col">
     <div class="card shadow p-0 fs-6">
@@ -677,7 +676,49 @@
 </div>                                          
 </div>
 </div>
+
   <!-- Footer -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Request Quote</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3 px-5 pt-1 pb-3" name="enquiry" method="POST" data-netlify="true">
+            <div class="col-md-8">
+              <label for="full-name" class="form-label">Full Name:</label>
+              <input type="text" class="form-control" name="full-name" id="full-name">
+            </div>
+            <div class="col-md-8 fs-6 form-group">
+              <label for="email" class="form-label">Email address:</label>
+              <input type="email" name="email" class="form-control" id="email">
+            </div>
+            <div class="col-6 form-group">
+                <label for="phone-number" class="form-label">Contact no.</label>
+                <input type="tel" name="phone-number" class="form-control" id="phone-number" name="phone-number">
+              </div>
+              <div class="col-6 form-group">
+                <label for="company" class="form-label">Organization:</label>
+                <input type="text" class="form-control" id="company" name="company">
+              </div>
+              <div class="col-11 form-group">
+                <label for="requirement" class="form-label">Requirement:</label>
+                <input type="text" class="py-3 form-control" id="requirement" name="requirement" placeholder="provide product name/cas number with quantity">
+              </div>
+            <br><br>
+            <button type="submit" class="btn btn-sm btn-success">Request Quote</button>
+            <div id="enquiryinfo" class="form-text">Our Customer represtentative will get in touch with you within 24 hours.
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <div class = "conatiner-fluid">
   <footer class="text-center text-muted bg-light">
     <!-- Section: Social media -->
