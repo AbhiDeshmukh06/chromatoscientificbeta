@@ -189,27 +189,28 @@ Accredited</h2>
       <div class="modal-body">
         <form class="row g-3 px-5 pt-1 pb-3" name="enquiry" method="POST" data-netlify="true">
           <div class="col-md-8">
-            <label for="inputEmail4" class="form-label">Full Name:</label>
-            <input type="text" class="form-control" id="inputName" placeholder="">
+            <label for="full-name" class="form-label">Full Name:</label>
+            <input type="text" class="form-control" name="full-name" id="full-name">
           </div>
-          <div class="col-md-8">
-            <label for="inputEmail" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="example@company.com">
+          <div class="col-md-8 fs-6 form-group">
+            <label for="email" class="form-label">Email address:</label>
+            <input type="email" name="email" class="form-control" id="email">
           </div>
-          <div class="col-6">
-            <label for="input" class="form-label">Contact no.</label>
-            <input type="text" class="form-control" id="inputPhone" placeholder="enter 10 digit number">
+          <div class="col-6 form-group">
+            <label for="phone-number" class="form-label">Contact no.</label>
+            <input type="tel" name="phone-number" class="form-control" id="phone-number" name="phone-number">
           </div>
-          <div class="col-6">
-            <label for="inputCompany" class="form-label">Company:</label>
-            <input type="text" class="form-control fs-6" id="inputAddress" placeholder="your company's name">
+          <div class="col-6 form-group">
+            <label for="company" class="form-label">Organization:</label>
+            <input type="text" class="form-control" id="company" name="company">
           </div>
-          <div class="col-6 mb-2">
-            <label for="exampleFormControlTextarea1" class="form-label">Product Name/Enquiry:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter required product's CAS number or IUPAC name"></textarea>
+           <div class="col-12 form-group">
+            <label for="requirement" class="form-label">Requirement:</label>
+            <input type="text" class="form-control" id="requirement" name="requirement" rows="2" placeholder="Compound Name, CAS or IUPAC with quantity">
           </div>
-          <button type="submit" class="btn btn-sm btn-success col-4">submit</button>
-          <div id="enquiryinfo" class="form-text">Our Customer represtentative will get in touch with you within 24 hours.
+          <br><br>
+          <button type="submit" class="btn btn-sm btn-success">Request Quote</button>
+          <div id="enquiryinfo" class="form-text">Our Customer represtentative will get in touch with you within 4 hours.
           </div>
         </form>
       </div>
