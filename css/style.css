@@ -144,3 +144,6 @@ p.addresstext{
 p.addresstext2{
     font-size: 11px !important;
 }
+div.font-change{
+    font-family: none;
+}
